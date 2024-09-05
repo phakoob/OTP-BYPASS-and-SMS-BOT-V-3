@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Run Windows - Experimental",
+            "request": "launch",
+            "type": "reactnative",
+            "cwd": "${workspaceFolder}",
+            "enableDebug": false,
+            "platform": "windows"
+        },
+        {
+            "name": "Run Windows Hermes",
+            "request": "launch",
+            "type": "reactnativedirect",
+            "cwd": "${workspaceFolder}",
+            "enableDebug": false,
+            "platform": "windows"
+        },
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
